@@ -37,7 +37,7 @@ fun ScaffoldExample() {
             modifier = Modifier
                 .fillMaxSize()
                 .padding(innerPadding)
-                .background(Color(0xFFE0F7FA)) // Fondo azul claro
+                .background(Color(0xFFE0F7FA))
         ) {
             CardExample()
             Spacer(modifier = Modifier.height(16.dp))
@@ -52,7 +52,7 @@ fun ScaffoldExample() {
 @Composable
 fun TopAppBarExample() {
     CenterAlignedTopAppBar(
-        title = { Text("Barra de Aplicación", color = Color.White) },
+        title = { Text("Barra de ls Aplicación", color = Color.White) },
         colors = TopAppBarDefaults.centerAlignedTopAppBarColors(containerColor = Color(0xFF00796B)) // Color verde oscuro
     )
 }
